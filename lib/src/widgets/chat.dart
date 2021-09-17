@@ -401,6 +401,7 @@ class _ChatState extends State<Chat> {
                               ),
                             ),
                     ),
+                    if(widget.showtextabovesendbutton == true) widget.custwidget,
                     widget.customBottomWidget ??
                         Input(
                           isAttachmentUploading: widget.isAttachmentUploading,
