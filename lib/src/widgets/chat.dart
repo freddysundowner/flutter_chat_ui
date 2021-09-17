@@ -54,8 +54,14 @@ class Chat extends StatefulWidget {
     this.timeFormat,
     this.usePreviewData = true,
     required this.user,
+    this.custwidget = const Text(""),
+    this.showtextabovesendbutton,
   }) : super(key: key);
 
+
+  final  bool ? showtextabovesendbutton;
+  Widget custwidget ;
+  
   /// Allows you to replace the default Input widget e.g. if you want to create
   /// a channel view.
   final Widget? customBottomWidget;
@@ -404,6 +410,8 @@ class _ChatState extends State<Chat> {
                           onTextFieldTap: widget.onTextFieldTap,
                           sendButtonVisibilityMode:
                               widget.sendButtonVisibilityMode,
+                          custwidget: widget.custwidget,
+                          showtextabovesendbutton: widget.showtextabovesendbutton,
                         ),
                   ],
                 ),

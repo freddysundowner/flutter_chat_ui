@@ -22,12 +22,12 @@ class Input extends StatefulWidget {
   Input({
     this.isAttachmentUploading,
     this.onAttachmentPressed,
-    this.showtextabovesendbutton,
     required this.onSendPressed,
     this.onTextChanged,
     this.onTextFieldTap,
     required this.sendButtonVisibilityMode,
     this.custwidget = const Text(""),
+    this.showtextabovesendbutton,
   });
 
   /// See [AttachmentButton.onPressed]
