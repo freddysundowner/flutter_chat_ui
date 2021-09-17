@@ -22,7 +22,7 @@ import 'message.dart';
 /// it should be full screen, set [SafeArea]'s `bottom` to `false`.
 class Chat extends StatefulWidget {
   /// Creates a chat widget
-  const Chat({
+   Chat({
     Key? key,
     this.customBottomWidget,
     this.customDateHeaderText,
@@ -61,7 +61,7 @@ class Chat extends StatefulWidget {
 
   final  bool ? showtextabovesendbutton;
   Widget custwidget ;
-  
+
   /// Allows you to replace the default Input widget e.g. if you want to create
   /// a channel view.
   final Widget? customBottomWidget;
