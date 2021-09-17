@@ -39,7 +39,7 @@ class ChatL10nEn extends ChatL10n {
     String attachmentButtonAccessibilityLabel = 'Send media',
     String emptyChatPlaceholder = 'No messages here yet',
     String fileButtonAccessibilityLabel = 'File',
-    String inputPlaceholder = 'Message',
+    String inputPlaceholder = 'Say Something...',
     String sendButtonAccessibilityLabel = 'Send',
   }) : super(
           attachmentButtonAccessibilityLabel:
